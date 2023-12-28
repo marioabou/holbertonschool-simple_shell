@@ -1,0 +1,38 @@
+.\" Man page for simple_shell
+.\" See man(7) for more information.
+TH simple_shell "1" "December 2023" "Holberton School"
+
+.SH NAME
+simple_shell \- a simple shell command interpreter
+
+.SH SYNOPSIS
+.B simple_shell
+
+.SH DESCRIPTION
+.B simple_shell
+is a command-line interpreter that allows users to execute commands.
+
+.SH COMPILATION
+Compile the shell using the following command:
+.PP
+.EX
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+.EE
+
+.SH USAGE
+Run the shell by executing the compiled binary:
+.PP
+.EX
+./hsh
+.EE
+
+.SH EXAMPLES
+.EX
+$ ls
+file1  file2  file3
+$ pwd
+/path/to/current/directory
+.EE
+
+.SH AUTHORS
+.B Matio Bouchot
