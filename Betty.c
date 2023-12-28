@@ -8,7 +8,7 @@
  */
 void print_hello(void)
 {
-    printf("Hello, Betty!\n");
+printf("Hello, Betty!\n");
 }
 
 /**
@@ -20,6 +20,7 @@ void print_hello(void)
  */
 int main(void)
 {
-    print_hello();
-    return 0;
+print_hello();
+return 0;
 }
+
