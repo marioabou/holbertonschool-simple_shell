@@ -21,6 +21,6 @@ printf("Hello, Betty!\n");
 int main(void)
 {
 print_hello();
-return 0;
+return (0);
 }
 
